@@ -18,6 +18,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Glames">
         <activity
+            android:name=".notas"
+            android:exported="false" />
+        <activity
             android:name=".ascii_09"
             android:exported="false" />
         <activity
