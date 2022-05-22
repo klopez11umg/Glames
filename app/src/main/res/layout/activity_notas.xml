@@ -13,13 +13,13 @@
         android:orientation="vertical"
         >
 
-    <Button
-        android:id="@+id/btn_pantallaNotas_abrir"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="154dp"
-        tools:layout_editor_absoluteY="259dp" />
+        <Button
+            android:id="@+id/btn_pantallaNotas_abrir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button"
+            tools:layout_editor_absoluteX="154dp"
+            tools:layout_editor_absoluteY="259dp" />
 
 
     </LinearLayout>

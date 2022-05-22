@@ -4,13 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class ascii_04 extends AppCompatActivity {
+public class notasCrear extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_ascii04);
-
-
+        setContentView(R.layout.activity_notas_crear);
     }
 }

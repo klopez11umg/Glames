@@ -19,7 +19,23 @@ public class notas extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_notas);
-        };
+
+        buttonAbrirBD = findViewById(R.id.btn_pantallaNotas_abrir);
+
+        buttonAbrirBD.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                DbHelper dbHelper = new DbHelper(notas.this);
+                SQLiteDatabase db = dbHelper.getWritableDatabase();
+
+                if(db != null){
+                    Toast.makeText(notas.this, "BASE DE DATOS CREADA", Toast.LENGTH_LONG).show();
+                }else {
+                    Toast.makeText(notas.this, "ERROR AL CREAR BASE DE DATOS", Toast.LENGTH_LONG).show();
+                }
+            }
+        });
 
 
+        }
     }

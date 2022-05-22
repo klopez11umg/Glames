@@ -27,5 +27,7 @@
     <string name="txt_btnPantallaAscii_09">Comillas, llaves y paréntesis</string>
     <string name="txt_btnPantallaAscii_10">Comúnes</string>
     <string name="txt_btnPantallaAscii_101">Simbolos mas comúnes</string>
+    <string name="txt_PantallaNotasCrear">Escriba sus apuntes...</string>
+    <string name="txt_btnPantallaNotasCrear_">Guardar</string>
 
 </resources>
