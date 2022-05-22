@@ -29,5 +29,6 @@
     <string name="txt_btnPantallaAscii_101">Simbolos mas comúnes</string>
     <string name="txt_PantallaNotasCrear">Escriba sus apuntes...</string>
     <string name="txt_btnPantallaNotasCrear_">Guardar</string>
+    <string name="txt_btnPantallaNotasCrear_Nota">Nueva nota</string>
 
 </resources>

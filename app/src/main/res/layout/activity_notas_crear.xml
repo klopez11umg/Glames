@@ -8,7 +8,7 @@
     tools:context=".notasCrear">
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/txt_pantallaNotas_escribir"
         android:layout_width="match_parent"
         android:layout_height="295dp"
         android:ems="10"
@@ -19,5 +19,6 @@
         android:id="@+id/btn_pantallaNotas_Crear"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:text="@string/txt_btnPantallaNotasCrear_" />
+
 </LinearLayout>
