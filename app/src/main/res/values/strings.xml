@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Glames</string>
+    <string name="txt_btnPantallaCamara">Imágenes</string>
+    <string name="txt_btnPc_abrir">Abrir Camara</string>
+    <string name="txt_btnPantallaAudio">Notas de voz</string>
+    <string name="txt_btnPantallaNotas">Notas</string>
+    <string name="txt_btnPantallaCalendario">Calendario</string>
+    <string name="txt_btnPantallaHerramientas">Herramientas</string>
+    <string name="title_activity_pantalla_audio">pantalla_audio</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="txt_btnPantallaHerramientas_titulo">Herramientas</string>
+    <string name="txt_btnPantallaHerramientas_prefijos">Prefijos Importantes</string>
+    <string name="txt_btnPantallaHerramientas_tablasFisica">Tablas de Física</string>
+    <string name="txt_btnPantallaHerramientas_alfabeto">Alfabeto Griego</string>
+    <string name="txt_btnPantallaHerramientas_equivalencias">Tablas de Equivalencias</string>
+    <string name="txt_btnPantallaHerramientas_tablasFisica_titulo">Tablas y Constantes Física</string>
+    <string name="txt_btnPantallaAscii">Código ASCII</string>
+    <string name="txt_btnPantallaAscii_01">Vocales con acento</string>
+    <string name="txt_btnPantallaAscii_02">Carácteres imprimibles</string>
+    <string name="txt_btnPantallaAscii_03">Carácteres extendido</string>
+    <string name="txt_btnPantallaAscii_04">Carácteres de uso frecuente</string>
+    <string name="txt_btnPantallaAscii_05">Vocales con acento</string>
+    <string name="txt_btnPantallaAscii_06">Vocales con diéresis</string>
+    <string name="txt_btnPantallaAscii_07">Simbolos matemáticos</string>
+    <string name="txt_btnPantallaAscii_08">Simbolos comerciales</string>
+    <string name="txt_btnPantallaAscii_09">Comillas, llaves y paréntesis</string>
+    <string name="txt_btnPantallaAscii_10">Comúnes</string>
+    <string name="txt_btnPantallaAscii_101">Simbolos mas comúnes</string>
+
+</resources>
