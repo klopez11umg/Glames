@@ -25,11 +25,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //Metodo para ver la pantalla uno con el bootn
-
-
-
-        //Metodo para ver la pantalla uno con el bootn
         buttonPantallaAudio = findViewById(R.id.btnPantallaCamara);
         buttonPantallaAudio.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -67,8 +62,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
-
+        buttonP = findViewById(R.id.btnPantallaNotas);
+        buttonP.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, notas.class);
+                startActivity(intent);
+            }
+        });
 
 
     }//fin onCreate
