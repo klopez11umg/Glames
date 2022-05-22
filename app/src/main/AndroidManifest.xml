@@ -21,9 +21,6 @@
             android:name=".notasCrear"
             android:exported="false" />
         <activity
-            android:name=".notas"
-            android:exported="false" />
-        <activity
             android:name=".ascii_09"
             android:exported="false" />
         <activity
@@ -93,6 +90,14 @@
             android:name=".pantallaCamara"
             android:label="Volver"
             android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".notas"
+            android:parentActivityName=".notas">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".notas"
+                />
+        </activity>
     </application>
 
 </manifest>
