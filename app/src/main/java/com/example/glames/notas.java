@@ -1,31 +1,43 @@
 package com.example.glames;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
-import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.Button;
-import android.widget.Toast;
 
-import com.example.glames.ui.main.bd.DbHelper;
+import com.example.glames.adaptadores.ListaNotasAdapter;
+import com.example.glames.ui.main.bd.DbContactos;
+import com.example.glames.entidades.NotasEscritas;
+
+import java.util.ArrayList;
 
 public class notas extends AppCompatActivity {
 
-    Button buttonAbrirBD;
+    RecyclerView litaNotas;
+    ArrayList<NotasEscritas> listaArrayNotas;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_notas);
 
-        buttonAbrirBD = findViewById(R.id.btn_pantallaNotas_abrir);
+        litaNotas = findViewById(R.id.id_listaNotas);
+        litaNotas.setLayoutManager(new LinearLayoutManager(this));
+        DbContactos dbContactos = new DbContactos(notas.this);
 
-        buttonAbrirBD.setOnClickListener(new View.OnClickListener() {
+        listaArrayNotas = new ArrayList<>();
+
+        ListaNotasAdapter adapter = new ListaNotasAdapter(dbContactos.mostrarNotas());
+        litaNotas.setAdapter(adapter);
+
+
+        /*
+        litaNotas.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 DbHelper dbHelper = new DbHelper(notas.this);
@@ -38,6 +50,8 @@ public class notas extends AppCompatActivity {
                 }
             }
         });
+        */
+
 
         }
     public boolean onCreateOptionsMenu(Menu menu){
