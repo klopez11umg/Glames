@@ -4,14 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     android:orientation="vertical"
     tools:context=".notasCrear">
 
     <EditText
         android:id="@+id/txt_pantallaNotas_escribir"
         android:layout_width="match_parent"
-        android:layout_height="295dp"
+        android:layout_height="382dp"
         android:ems="10"
+        android:textColor="#040404"
         android:hint="@string/txt_PantallaNotasCrear"
         android:inputType="textPersonName" />
 

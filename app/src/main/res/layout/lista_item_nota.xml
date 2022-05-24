@@ -12,7 +12,15 @@
         <TextView
             android:id="@+id/viewNota"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="49dp"
+            android:textColor="#040404"
+            android:textSize="20sp" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider" />
 
     </LinearLayout>
 
