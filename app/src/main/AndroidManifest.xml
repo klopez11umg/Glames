@@ -18,6 +18,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Glames">
         <activity
+            android:name=".pantalla_calendario_2"
+            android:exported="false" />
+        <activity
+            android:name=".pantalla_calendario"
+            android:exported="false" />
+        <activity
             android:name=".notasCrear"
             android:exported="false" />
         <activity
@@ -95,8 +101,7 @@
             android:parentActivityName=".notas">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".notas"
-                />
+                android:value=".notas" />
         </activity>
     </application>
 

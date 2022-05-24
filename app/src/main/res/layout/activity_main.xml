@@ -84,7 +84,7 @@
             app:strokeColor="@color/cardview_dark_background" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/btnPantallaCalendario"
             style="?attr/materialButtonOutlinedStyle"
             android:layout_width="285dp"
             android:layout_height="108dp"

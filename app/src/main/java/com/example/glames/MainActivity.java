@@ -71,6 +71,15 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        buttonP = findViewById(R.id.btnPantallaCalendario);
+        buttonP.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, pantalla_calendario.class);
+                startActivity(intent);
+            }
+        });
+
 
     }//fin onCreate
 }
